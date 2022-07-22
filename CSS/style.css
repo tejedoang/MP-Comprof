@@ -45,6 +45,7 @@ h2 {
     font-weight: 500;
     margin-top: 100px;
     border-bottom: 3px solid red;
+    border-bottom-width: ;
 
 }
 
@@ -64,7 +65,7 @@ h2 {
 /* OUR BUSINESS SECTION */
 
 #bisnis {
-    padding: 100px 0;
+    padding: 0px;
 }
 
 h1 {
