@@ -45,7 +45,7 @@ h2 {
     font-weight: 500;
     margin-top: 100px;
     border-bottom: 3px solid red;
-    border-bottom-width: ;
+   
 
 }
 
@@ -74,4 +74,25 @@ h1 {
 }
 
 
+/* OUR MEDIA SECTION */
 
+h3 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 0px;
+    border-bottom: 3px solid red;
+}
+
+
+/* CONTACT US SECTION */
+
+#Contactus {
+    background-color: #EE3A3A;
+}
+
+/* h4 {  */
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 120px;
+
+}
