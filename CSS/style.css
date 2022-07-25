@@ -90,9 +90,11 @@ h3 {
     background-color: #EE3A3A;
 }
 
-/* h4 {  */
+
+h6 {
     font-size: 64px;
     font-weight: 500;
-    margin-top: 120px;
+    margin-top:10px;
+    margin-bottom: 50px;
 
 }
