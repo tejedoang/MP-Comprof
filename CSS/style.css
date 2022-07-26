@@ -79,16 +79,16 @@ h1 {
 h3 {
     font-size: 64px;
     font-weight: 500;
+    color: #EE3A3A;
     margin-top: 0px;
     border-bottom: 3px solid red;
+
 }
 
 
 /* CONTACT US SECTION */
 
-#Contactus {
-    background-color: #EE3A3A;
-}
+
 
 
 h6 {
@@ -96,5 +96,6 @@ h6 {
     font-weight: 500;
     margin-top:10px;
     margin-bottom: 50px;
+    color: white;
 
 }
