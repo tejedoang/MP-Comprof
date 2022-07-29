@@ -33,7 +33,7 @@ body {
     background: #FFFFFF;
     border: 1px solid #EE3A3A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 
 /* About Section */
@@ -90,8 +90,16 @@ h3 {
     font-size: 32px;
 }
 
-.btn-slider {
-    margin-top: 30px;
+.button-slider {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 600px;
+    height: 53px;
+
+    background-color: orange;
+    border: 1px solid #EE3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;       
 }
 
 
@@ -120,16 +128,74 @@ background: #D9D9D9;
 border-radius: 20px;
 }
 
-
-#bakekok {
-    border-left: 200px ;
+#Contact-us {
+    border-left: 3px;
+    border-color: green;
 }
+
+
+
 
 
 
 /* FOOTER SECTION */
 
-* {
-    padding: 0;
-    margin: 0;
-}
+.footer2 {
+    background-color: silver;
+  }
+
+  .coba {
+    display: flex;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+
+  .coba2 {
+    display: flex;
+    border-radius: 30px;
+    margin-top: 5px;
+  }
+
+  .garis {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+
+  .telpon {
+    width: 49px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+
+  .email {
+    width: 49px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  
+  .huruf {
+    font-size: 24px;
+    color: red ;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .bebek {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .Kontak-kami {
+    font-size: 24px;
+    color: red ;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .NoTelp {
+    font-size: 16px;
+    margin-left: 50px;
+  }
