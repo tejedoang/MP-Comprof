@@ -133,6 +133,7 @@ border-radius: 20px;
     border-color: green;
 }
 
+.kemek 
 
 
 
@@ -144,13 +145,13 @@ border-radius: 20px;
     background-color: silver;
   }
 
-  .coba {
+  .Kotak-ft {
     display: flex;
     border-radius: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
-  .coba2 {
+  .Kotak-ft2 {
     display: flex;
     border-radius: 30px;
     margin-top: 5px;
@@ -168,7 +169,7 @@ border-radius: 20px;
     margin-left: 30px;
   }
 
-  .email {
+  .email-img {
     width: 49px;
     height: 54px;
     margin-top: 15px;
@@ -176,14 +177,14 @@ border-radius: 20px;
   }
 
   
-  .huruf {
+  .Mesus {
     font-size: 24px;
     color: red ;
     margin-left: 20px;
     margin-top: 10px;
   }
 
-  .bebek {
+  .email {
     font-size: 16px;
     margin-left: 10px;
   }
@@ -198,4 +199,35 @@ border-radius: 20px;
   .NoTelp {
     font-size: 16px;
     margin-left: 50px;
+  }
+
+  .Footer-title {
+    margin-top: -60px;
+  }
+
+  .About-MP {
+    color: black;
+    font-size: 20px;
+  }
+
+  .OB-FT {
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .OM-FT {
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .Pembatas a::after {
+    content: "|";
+    color: black;
+    margin-left: 10px;
+  }
+
+  .Go-Up {
+    color: black;
   }
