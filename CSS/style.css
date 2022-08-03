@@ -71,6 +71,8 @@ h2 {
 h1 {
     font-size: 48px;
     font-weight: 500;
+    padding-top: 200px;
+    margin-left: 200px;
 }
 
 
@@ -88,6 +90,7 @@ h3 {
 
 .sub-title {
     font-size: 32px;
+  
 }
 
 .button-slider {
@@ -133,9 +136,14 @@ border-radius: 20px;
     border-color: green;
 }
 
-.kemek 
+.test{
+  margin-right: 30px;
+} 
 
-
+.test img {
+  width: 100%;
+  display: block;
+}
 
 
 
