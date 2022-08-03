@@ -239,3 +239,73 @@ border-radius: 20px;
   .Go-Up {
     color: black;
   }
+
+
+  /* ReadMore */
+.visimisi {
+  background-image: url(/Assets/Img/BG-1.png);
+  background-size: cover;
+}
+
+.spongebob {
+  border-radius: 50px;
+}
+
+.orang {
+  background-image: url(/Assets/Img/BG-2.png);
+  background-size: cover;
+}
+
+.piagam {
+  background-image: url(/Assets/Img/BG-3.png);
+  background-size: cover;
+}
+
+.peluru {
+  padding-top: 125px;
+}
+
+.mata {
+  padding-top: 150px;
+ }
+
+ .ABMP {
+  font-size: 40px;
+  font-weight: bold;
+ }
+
+ .Sub-abmp {
+  font-size: 24px ;
+  font-weight: 500;
+ }
+
+ .People {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 90px;
+ }
+
+ .awards {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 90px;
+
+ }
+
+ .button-aw {
+  border-radius: 15px;
+  width: 130px;
+  height: 38px;
+ }
+ 
+ .button-po {
+  border-radius: 15px;
+  width: 130px;
+  height: 38px;
+ }
+
+ .button-ab {
+  border-radius: 15px;
+  width: 130px;
+  height: 38px;
+ }
