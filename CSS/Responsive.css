@@ -1,8 +1,151 @@
-@media screen and (max-width: 922px) {
-
+@media screen and (max-width: 1025px) {
+/* ABOUT SECTION */
+.ab-tagline h1 {
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 576px) {
+.sub-title {
+    font-size: 20px;
+}
+
+.about-logo {
+    margin-top: 150px;
+    height: 60px;
+}
+
+/* OUR BUSINESS SECTION */
+    .ob h2 {
+        font-size: 42px;
+        
+    }
+
+
+/* OUR MEDIA SECTION  */
+    .om h3 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+/*  CONTACT SECTION */
+    .ctc .h6 {
+        font-size: 42px;
+    }
+    
+    .kotak-kiri {
+        height: 200px
+    }
+
+    .kotak-kanan {
+        height: 200 px;
+    }
+
+    .testuy {
+        padding-left: 120px;
+        margin-top: 50px;
+    
+    }
+
+    .form-control {
+        height: 50px;
+        width: 75%;
+    }
+
+    .map {
+        margin-top: 50px;
+    }
+
+    .twt {
+       margin-left: -120px;
+    }
+
+    .ig {
+        margin-left: -120px;
+    }
+
+    .ytb {
+        margin-left: -120px;
+    }
+
+    .Go-Up {
+        margin-left: -120px;
+    }
+} 
+
+@media screen and (max-width: 769px) {
+    /* ABOUT SECTION */
+.ab-tagline h1 {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 16px;
+}
+
+.about-logo {
+    margin-top: 170px;
+    height: 50px;
+}
+
+/* OUR BUSINESS SECTION */
+    .ob h2 {
+        font-size: 42px;
+        
+    }
+
+
+/* OUR MEDIA SECTION  */
+    .om h3 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+/*  CONTACT SECTION */
+    .ctc .h6 {
+        font-size: 42px;
+    }
+    
+    .kotak-kiri {
+        height: 200px
+    }
+
+    .kotak-kanan {
+        height: 200 px;
+    }
+
+    .testuy {
+        padding-left: 120px;
+        margin-top: 50px;
+    
+    }
+
+    .form-control {
+        height: 50px;
+        width: 75%;
+    }
+
+    .map {
+        margin-top: 50px;
+    }
+
+    .twt {
+       margin-left: -120px;
+    }
+
+    .ig {
+        margin-left: -120px;
+    }
+
+    .ytb {
+        margin-left: -120px;
+    }
+
+    .Go-Up {
+        margin-left: -120px;
+    }
 
 }
 
