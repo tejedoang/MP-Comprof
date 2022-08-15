@@ -1,154 +1,852 @@
 @media screen and (max-width: 1025px) {
-/* ABOUT SECTION */
-.ab-tagline h1 {
-    font-size: 40px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-}
-
-.sub-title {
-    font-size: 20px;
-}
-
-.about-logo {
-    margin-top: 150px;
-    height: 60px;
-}
-
-/* OUR BUSINESS SECTION */
-    .ob h2 {
-        font-size: 42px;
-        
-    }
-
-
-/* OUR MEDIA SECTION  */
-    .om h3 {
-        font-size: 42px;
-        margin-bottom: 30px;
-    }
-
-/*  CONTACT SECTION */
-    .ctc .h6 {
-        font-size: 42px;
-    }
-    
-    .kotak-kiri {
-        height: 200px
-    }
-
-    .kotak-kanan {
-        height: 200 px;
-    }
-
-    .testuy {
-        padding-left: 120px;
-        margin-top: 50px;
-    
-    }
-
-    .form-control {
-        height: 50px;
-        width: 75%;
-    }
-
-    .map {
-        margin-top: 50px;
-    }
-
-    .twt {
-       margin-left: -120px;
-    }
-
-    .ig {
-        margin-left: -120px;
-    }
-
-    .ytb {
-        margin-left: -120px;
-    }
-
-    .Go-Up {
-        margin-left: -120px;
-    }
-} 
-
-@media screen and (max-width: 769px) {
     /* ABOUT SECTION */
-.ab-tagline h1 {
-    font-size: 40px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
-
-.sub-title {
-    font-size: 16px;
-}
-
-.about-logo {
-    margin-top: 170px;
-    height: 50px;
-}
-
-/* OUR BUSINESS SECTION */
-    .ob h2 {
-        font-size: 42px;
+    .ab-tagline h1 {
+        font-size: 40px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .sub-title {
+        font-size: 20px;
+    }
+    
+    .about-logo {
+        margin-top: 150px;
+        height: auto;
+        width: 70%;
+        margin-left: 30px;
+    }
+    
+    /* OUR BUSINESS SECTION */
+        .ob h2 {
+            font-size: 42px;
+            
+        }
+    
+    
+    /* OUR MEDIA SECTION  */
+        .om h3 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+    
+    /*  CONTACT SECTION */
+        .ctc h6 {
+            font-size: 42px;
+        }
         
-    }
+        .kotak-kiri {
+            height: 200px
+        }
+    
+        .kotak-kanan {
+            height: 200px;
+        }
+    
+        .testuy {
+            padding-left: 120px;
+            margin-top: 50px;
+        
+        }
+    
+        .form-control {
+            height: 50px;
+            width: 75%;
+        }
+    
+        .map {
+            margin-top: 50px;
+        }
+    
+        .twt {
+           margin-left: -120px;
+        }
+    
+        .ig {
+            margin-left: -120px;
+        }
+    
+        .ytb {
+            margin-left: -120px;
+        }
+    
+        .Go-Up {
+            margin-left: -120px;
+        }
 
+        .About-MP {
+            font-size: 14px;
+        }
 
-/* OUR MEDIA SECTION  */
-    .om h3 {
-        font-size: 42px;
-        margin-bottom: 30px;
-    }
+        .OB-FT {
+            font-size: 14px;
+            
+        }
 
-/*  CONTACT SECTION */
-    .ctc .h6 {
-        font-size: 42px;
+        .OM-FT {
+            font-size: 14px;
+        }
+        
+    } 
+    
+    @media screen and (max-width: 769px) {
+    
+    
+    .mp-kecil {
+            height: 50px;
+        }
+    
+        /* ABOUT SECTION */
+    .ab-tagline h1 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-bottom: 20px;
     }
     
-    .kotak-kiri {
-        height: 200px
+    .sub-title {
+        font-size: 16px;
     }
-
-    .kotak-kanan {
-        height: 200 px;
-    }
-
-    .testuy {
-        padding-left: 120px;
-        margin-top: 50px;
     
-    }
-
-    .form-control {
+    .about-logo {
+        margin-top: 170px;
         height: 50px;
-        width: 75%;
     }
-
-    .map {
-        margin-top: 50px;
-    }
-
-    .twt {
-       margin-left: -120px;
-    }
-
-    .ig {
-        margin-left: -120px;
-    }
-
-    .ytb {
-        margin-left: -120px;
-    }
-
-    .Go-Up {
-        margin-left: -120px;
-    }
-
-}
-
-@media screen and (max-width: 350px) {
     
-}
+    /* OUR BUSINESS SECTION */
+        .ob h2 {
+            font-size: 42px;
+            
+        }
+    
+    
+    /* OUR MEDIA SECTION  */
+        .om h3 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+    
+    /*  CONTACT SECTION */
+        .ctc h6 {
+            font-size: 40px;
+        }
+        
+        .kotak-kiri {
+            height: 150px ;
+        }
+    
+        .kotak-kanan {
+            height: 120px;
+        }
+    
+        .testuy {
+            padding-left: 15px;
+            margin-top: 50px;
+    
+        
+        }
+    
+        .form-control {
+            height: 40px;
+            width: 300px;
+        }
+    
+        .map {
+            margin-top: 50px;
+            width: 90%;
+            margin-left: 30px;
+        }
+    
+        .fb {
+            height: 77px;
+        }
+    
+        .twt {
+           margin-left: -170px;
+           height: 70px;
+        }
+    
+        .ig {
+            margin-left: -250px;
+            height: 75px;
+        }
+    
+        .ytb {
+            margin-left: -350px;
+            height: 70px;
+        }
+    
+        .Go-Up {
+            margin-left: -180px;
+        }
+    
+        .button-slider {
+           width: 50%;
+           margin-left: 180px;
+        }
+            
+            
+        .email-img {
+        width: 49px;
+        height: 54px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+        .footer-logo {
+            width: 75%;
+            height: auto;
+        }
+
+        .About-MP {
+            font-size: 14px;
+        }
+        
+        .OB-FT {
+            font-size: 14px
+        }
+
+        .OM-FT {
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (max-width: 737px) {
+        
+         /* Navbar */
+         .navbar {
+            border-bottom: 7px solid red;
+            height: 70px;
+          }
+    
+        .mp-navbar {
+            height: 30px;
+            width: 170px;
+        }
+    
+        .mp-kecil {
+            height: 50px;
+        }
+        
+        /* ABOUT SECTION */
+    .ab-tagline h1 {
+        font-size: 32px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: -0px;
+    }
+    
+    .sub-title {
+        font-size: 15px;
+    }
+    
+    .about-logo {
+        margin-top: 150px;
+        height: auto;
+        margin-left: -50px;
+    }
+    
+    /* OUR BUSINESS SECTION */
+        .ob h2 {
+            font-size: 32px;
+            
+        }
+    
+    
+    /* OUR MEDIA SECTION  */
+        .om h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+    
+        .button-slider {
+            height: auto;
+            width: 500px;
+        }
+    
+    /*  CONTACT SECTION */
+        .ctc h6 {
+            font-size: 32px;
+        }
+        
+        .kotak-kiri {
+            height: 150px ;
+        }
+    
+        .kotak-kanan {
+            height: 120px;
+        }
+    
+        .testuy {
+            padding-left: 15px;
+            margin-top: -15px;
+            
+    
+        
+        }
+    
+        .form-control {
+            height: 10px;
+            width: 400px;
+            margin-left: 50px;
+        }
+    
+        .pertanyaan {
+            margin-left: 50px;
+        }
+    
+        .button-submit {
+            margin-left: 150px;
+        }
+    
+        .map {
+            margin-top: 20px;
+            width: 75%;
+            margin-left: 60px;
+        }
+    
+        .fb {
+            height: auto;
+    
+            
+        }
+    
+        .twt {
+           
+           height: auto;
+           
+        }
+    
+        .ig {
+    
+            height: auto
+        }
+    
+        .ytb {
+           
+            height: auto
+        }
+    
+        .Go-Up {
+            margin-left: -180px;
+        }
+
+
+        .Footer-title {
+            margin-left: 140px;
+        }
+    
+
+        .About-MP {
+            margin-left: 50px;
+        }
+
+        .footer-logo {
+            width: 75%;
+            height: auto;
+            margin-left: 60px;
+        }
+
+        .Kotak-ft {
+            height: 80px;
+            width: 250px;
+            margin-left: -130px;
+        }
+    
+        .Kotak-ft2 {
+            height: 80px;
+            width: 250px;   
+            margin-left: -130px;
+        }
+
+        .Kontak-kami {
+            font-size: 18px;
+            color: red ;
+            margin-left: 20px;
+            margin-top: 10px;
+          }
+
+          .NoTelp {
+            font-size: 16px;
+            margin-left: 30px;
+          }
+    
+          .email {
+            font-size: 12px;
+            margin-left: 10px;
+          }
+    
+          .email-img {
+            width: 49px;
+            height: 54px;
+            margin-top: 15px;
+            margin-left: 20px;
+      }
+
+        .Go-Up {
+            margin-left: -250px;
+            font-size: 12px;
+        }
+
+        .copyright {
+            font-size: 12px;
+        }
+        
+        }
+        
+            
+            
+       
+
+
+    @media screen and (max-width: 415px) {
+        /* Navbar */
+        .navbar {
+            border-bottom: 7px solid red;
+            height: 70px;
+          }
+    
+        .mp-navbar {
+            height: 30px;
+            width: 170px;
+        }
+    
+        .mp-kecil {
+            height: 30px;
+        }
+        
+        /* ABOUT SECTION */
+    .ab-tagline h1 {
+        font-size: 24px;
+        margin-left: 30px;
+        margin-bottom: 18px;
+        margin-top: -0px;
+    }
+    
+    .sub-title {
+        font-size: 15px;
+    }
+    
+    .about-logo {
+        margin-top: 150px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    .button-secondary {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 180px;
+        height: 40px;
+    
+        background: #FFFFFF;
+        border: 1px solid #EE3A3A;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }   
+    
+    
+    /* OUR BUSINESS SECTION */
+        .ob h2 {
+            font-size: 24px;
+            
+        }
+    
+    
+    /* OUR MEDIA SECTION  */
+        .om h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+    
+    /*  CONTACT SECTION */
+        .ctc h6 {
+            font-size: 24px;
+        }
+        
+        .kotak-kiri {
+            height: 150px ;
+        }
+    
+        .kotak-kanan {
+            height: 120px;
+        }
+    
+        .testuy {
+            padding-left: 15px;
+            margin-top: -15px;
+            
+    
+        
+        }
+    
+        .form-control {
+            height: 10px;
+            width: 300px;
+            margin-left: 20px;
+        }
+    
+        .pertanyaan {
+            margin-left: 20px;
+        }
+    
+        .button-submit {
+            margin-left: 110px;
+        }
+    
+        .map {
+            margin-top: 20px;
+            width: 80%;
+            margin-left: 40px;
+        }
+    
+        .fb {
+            height: 60px;
+            margin-left: 10px;
+        }
+    
+        .twt {
+           margin-left: -100px;
+           height: 50px;
+           
+        }
+    
+        .ig {
+            margin-left: -260px;
+            height: 60px;
+        }
+    
+        .ytb {
+            margin-left: -270px;
+            height: 50px;
+        }
+    
+        .Go-Up {
+            margin-left: -180px;
+        }
+    
+        .button-slider {
+            margin-top: 20px;
+            margin-left: 10px;
+            width: 5px;
+            height: 5px;
+        
+            background-color: orange;
+            border: 1px solid #EE3A3A;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px; 
+        }
+            
+            
+        .email-img {
+        width: 49px;
+        height: 54px;
+        margin-top: 15px;
+        margin-left: 20px;
+    
+    
+    }
+    
+    /* Footer */
+    
+        .footer-logo {
+            width: 300px;
+            margin-left: 30px;
+            height: 55px;
+        }
+    
+        .Footer-title {
+            margin-left: 80px;
+        }
+    
+        .About-MP {
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    
+        .OB-FT {
+            font-size: 12px;
+        }
+    
+        .OM-FT {
+            font-size: 12px;
+        }
+    
+        .Kotak-ft {
+            height: 80px;
+            width: 250px;
+            margin-left: -130px;
+        }
+    
+        .Kotak-ft2 {
+            height: 80px;
+            width: 250px;   
+            margin-left: -130px;
+        }
+    
+        .Kontak-kami {
+            font-size: 18px;
+            color: red ;
+            margin-left: 20px;
+            margin-top: 10px;
+          }
+        
+          .NoTelp {
+            font-size: 16px;
+            margin-left: 30px;
+          }
+    
+          .email {
+            font-size: 12px;
+            margin-left: 10px;
+          }
+    
+          .email-img {
+        width: 49px;
+        height: 54px;
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+    
+      .Mesus {
+        font-size: 18px;
+        color: red ;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+    
+    
+      .Go-Up {
+        margin-right: 120px;
+        
+      }
+
+      .copyright {
+        font-size: 12px;
+      }
+    
+    }
+    
+    @media screen and (max-width: 376px) {
+        /* Navbar */
+        .navbar {
+            border-bottom: 7px solid red;
+            height: 70px;
+          }
+    
+        .mp-navbar {
+            height: 30px;
+            width: 170px;
+        }
+    
+        .mp-kecil {
+            height: 30px;
+        }
+        
+        /* ABOUT SECTION */
+    .ab-tagline h1 {
+        font-size: 22px;
+        margin-left: 30px;
+        margin-bottom: 18px;
+        margin-top: -0px;
+    }
+    
+    .sub-title {
+        font-size: 12px;
+    }
+    
+    .about-logo {
+        margin-top: 150px;
+        height: 25px;
+        margin-left: -5px;
+    }
+    .button-secondary {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    
+        background: #FFFFFF;
+        border: 1px solid #EE3A3A;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }   
+    
+    
+    /* OUR BUSINESS SECTION */
+        .ob h2 {
+            font-size: 24px;
+            
+        }
+    
+    
+    /* OUR MEDIA SECTION  */
+        .om h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+    
+    /*  CONTACT SECTION */
+        .ctc h6 {
+            font-size: 24px;
+        }
+        
+        .kotak-kiri {
+            height: 150px ;
+        }
+    
+        .kotak-kanan {
+            height: 120px;
+        }
+    
+        .testuy {
+            padding-left: 15px;
+            margin-top: -15px;
+            
+    
+        
+        }
+    
+        .form-control {
+            height: 10px;
+            width: 300px;
+            margin-left: 5px;
+        }
+    
+        .pertanyaan {
+            margin-left: 5px;
+        }
+    
+        .button-submit {
+            margin-left: 80px;
+        }
+    
+        .map {
+            margin-top: 20px;
+            width: 75%;
+            margin-left: 40px;
+        }
+    
+        .fb {
+            height: 60px;
+            margin-left: -50px;
+        }
+    
+        .twt {
+           margin-left: -200px;
+           height: 50px;
+           
+        }
+    
+        .ig {
+            margin-left: -320px;
+            height: 60px;
+        }
+    
+        .ytb {
+            margin-left: auto;
+            height: 50px;
+        }
+    
+        .Go-Up {
+            margin-left: -180px;
+        }
+    
+        .button-slider {
+            margin-top: 20px;
+            margin-left: 10px;
+            width: 5px;
+            height: 5px;
+        
+            background-color: orange;
+            border: 1px solid #EE3A3A;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px; 
+        }
+            
+            
+        .email-img {
+        width: 49px;
+        height: 54px;
+        margin-top: 15px;
+        margin-left: 20px;
+        
+        }
+    
+    /* Footer */
+    
+    .footer-logo {
+        width: 75%;
+        margin-left: 40px;
+        height: auto;
+    }
+    
+    .Footer-title {
+        margin-left: 60px;
+    }
+    
+    .About-MP {
+        font-size: 12px;
+    }
+    
+    .OB-FT {
+        font-size: 12px;
+    }
+    
+    .OM-FT {
+        font-size: 12px;
+    }
+    
+    .Kotak-ft {
+        height: 80px;
+        width: 250px;
+        margin-left: -130px;
+    }
+    
+    .Kotak-ft2 {
+        height: 80px;
+        width: 250px;   
+        margin-left: -130px;
+    }
+    
+    .Kontak-kami {
+        font-size: 18px;
+        color: red ;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+    
+      .NoTelp {
+        font-size: 16px;
+        margin-left: 30px;
+      }
+    
+      .email {
+        font-size: 12px;
+        margin-left: 10px;
+      }
+    
+      .email-img {
+    width: 49px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 20px;
+    }
+    
+    .Mesus {
+    font-size: 18px;
+    color: red ;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    
+    
+    .Go-Up {
+    margin-right: 120px;
+
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+    
+    }

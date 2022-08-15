@@ -2687,7 +2687,7 @@ fieldset:disabled .btn {
 .btn-secondary.active,
 .btn-secondary:active,
 .show>.btn-secondary.dropdown-toggle {
- color:#fff;
+ color:red;
  background-color:#565e64;
  border-color:#51585e
 }
@@ -3873,7 +3873,7 @@ fieldset:disabled .btn {
   display:none
  }
 }
-@media (min-width:992px) {
+@media (min-width:1031px) {
  .navbar-expand-lg {
   flex-wrap:nowrap;
   justify-content:flex-start
@@ -3998,7 +3998,6 @@ fieldset:disabled .btn {
 }
 .navbar-light .navbar-toggler {
  color:rgba(0,0,0,.55);
- border-color:rgba(0,0,0,.1)
 }
 .navbar-light .navbar-toggler-icon {
  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
@@ -5145,7 +5144,7 @@ fieldset:disabled .btn {
   max-width:none;
   height:100%;
   margin:0
- }
+ } 
  .modal-fullscreen-md-down .modal-content {
   height:100%;
   border:0;
@@ -6411,10 +6410,7 @@ fieldset:disabled .btn {
  margin-right:1rem!important;
  margin-left:1rem!important
 }
-.mx-4 {
- margin-right:1.5rem!important;
- margin-left:1.5rem!important
-}
+
 .mx-5 {
  margin-right:3rem!important;
  margin-left:3rem!important

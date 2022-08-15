@@ -16,14 +16,14 @@
     <!-- My Style -->
     <link rel="stylesheet" href="CSS/style.css">
 
-    <!-- responsive css -->
-    <link rel="stylesheet" href="CSS/Responsive.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="/CSS/Responsive.css">
 
     
      <!-- Logo Title -->
     <link rel="icon" href="Assets/Img/LOGO TITLE.png" type="image/x-icon">
 
-    <title>Merah Putih Media</title>
+    <title>Merah Putih Media</title>  
   </head>
   <style>
     .custome{display: block; width: 100%; margin-top: 200px; margin-bottom: -100px;}
@@ -31,33 +31,33 @@
     .customize {display: block; width: 100%;}
     
   </style>
-  <body>
+  <body  id="body">
 
     <!-- HEAD -->
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 fixed-top" id="menu">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="Assets/Img/MP-MEDIA-FC 1.png" alt="" width="250" height="45"
-                class="d-inline-block align-text-top">
+                <img src="Assets/Img/MP-MEDIA-FC 1.png" alt="" width="250" height="auto"
+                class="d-inline-block align-text-top mp-navbar">
               </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item mx-4 ">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link home active" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#About">ABOUT</a>
+                <a class="nav-link about" href="#About">ABOUT</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#bisnis" class="nav-link">OUR BUSINESS</a>
+                <a class="nav-link bisnis" href="#bisnis" class="nav-link">OUR BUSINESS</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#Our-Media" class="nav-link">OUR MEDIA</a>
+                <a class="nav-link media" href="#Our-Media" class="nav-link">OUR MEDIA</a>
               </li>
             </ul>
 
@@ -118,13 +118,13 @@
 
          <!-- About Section -->
          <section id="About" style="height: auto; padding-top: 100px; margin-top: -100px;">
-          <div class="d-flex justify-content-start position-absolute w-100 ">
-            <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media">
+          <div class="d-flex justify-content-start position-absolute w-100">
+            <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media" class="mp-kecil">
           </div>
    
           <div class="container d-flex align-items-center h-100">
-            <div class= "w-50 d-flex justify-content-center about-logo">
-                <img src="/Assets/Img/MP-MEDIA-FC 1.png" alt="" class=>
+            <div class= "w-50 d-flex justify-content-center">
+                <img src="/Assets/Img/MP-MEDIA-FC 1.png" alt="" class= about-logo>
             </div>
   
             <div class="w-50">
@@ -134,7 +134,9 @@
               </div>
               <div>
                 <div class="row h-100">
-                  <button class="button-secondary">Read More</button>
+                  <button class="button-secondary btn-lg active" href="" aria-pressed="true">
+                <a href="http://127.0.0.1:5501/Readmore.html" class="CONTACT" style="text-decoration: none ;">Read More</a>
+               </button>
                 </div>
               </div>
               
@@ -151,7 +153,7 @@
 
  <section id="bisnis" style="height:auto; padding-top:100px;">
       <div class="d-flex justify-content-start position-absolute w-100">
-        <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media">
+        <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media" class="mp-kecil">
       </div>
         <div class="container">
             <div class="row mb-5">
@@ -216,7 +218,7 @@
   <!--  Our Media -->
   <section id="Our-Media" style="height: auto; padding-top: 100px;">
     <div class="d-flex justify-content-start position-absolute w-100">
-      <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media">
+      <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media"class="mp-kecil">
     </div>
     <div>
     <img src="/Assets/Img/Rectangle 70.png" alt="" style="display: block;" width="100%">
@@ -238,66 +240,43 @@
         </div>
         <div class="carousel-inner mt-lg-5 mb-5">
           <div class="carousel-item active">
-            <img src="Assets/Img/MP.COM.png" class="d-block w-100" alt="...">
+            <img src="Assets/Img/MP.COM.png" class="d-block w-100" alt="..." style="aspect-ratio: 16 / 9;object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
               <h5>MERAH PUTIH.COM</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a quaerat quisquam totam odio quia rem ipsa minima natus placeat. Ullam unde harum facilis atque ipsa cum nihil asperiores tempore..</p>
-              <div>
-                <div class="w-100">
-                  <button class="button-slider">VIEW ALL</button>
-                </div>
-              </div>
             </div>
             
           </div>
           <div class="carousel-item">
-            <img src="Assets/Img/KABAROTO.png" class="d-block w-100" alt="...">
+            <img src="Assets/Img/KABAROTO.png" class="d-block w-100" alt="..."style="aspect-ratio: 16 / 9;object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
               <h5>KABAROTO.COM</h5>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia, molestiae quas repellat a quae, alias maxime suscipit voluptate magnam similique illo possimus nostrum necessitatibus..</p>
-              <div>
-                <div class="w-100">
-                  <button class="button-slider">VIEW ALL</button>
-                </div>
-              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="Assets/Img/BOLASKOR.png" class="d-block w-100" alt="...">
+            <img src="Assets/Img/BOLASKOR.png" class="d-block w-100" alt="..."style="aspect-ratio: 16 / 9;object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
               <h5>BOLASKOR.COM</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi a in, distinctio, earum voluptas saepe sunt optio expedita ab repellendus dolor? Saepe, dolor. Sed.</p>
-              <div>
-                <div class="w-100">
-                  <button class="button-slider">VIEW ALL</button>
-                </div>
-              </div>
+              
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="Assets/Img/SIDE.ID.png" class="d-block w-100" alt="...">
+            <img src="Assets/Img/SIDE.ID.png" class="d-block w-100" alt="..."style="aspect-ratio: 16 / 9;object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
               <h5>SIDE.ID</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias veniam, aliquam voluptatum ipsum nobis consequatur ipsa! Placeat, officia culpa!.</p>
-              <div>
-                <div class="w-100">
-                  <button class="button-slider">VIEW ALL</button>
-                </div>
-              </div>
+            
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="Assets/Img/KAMIBIJAK.png" class="d-block w-100" alt="...">
+            <img src="Assets/Img/KAMIBIJAK.png" class="d-block w-100" alt="..."style="aspect-ratio: 16 / 9;object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
               <h5>KAMIBIJAK</h5>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit omnis non veniam exercitationem quod aliquam ratione, eos temporibus atque, sunt, sequi ullam provident deleniti quae..</p>
-              <div>
-                <div class="w-100">
-                  <button class="button-slider">VIEW ALL</button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -311,6 +290,9 @@
         </button>
       </div>
       
+      <div">
+        <button class="button-slider">VIEW ALL</button>
+      </div>
       
     </div>
   </div>
@@ -325,7 +307,7 @@
       <img src="/Assets/Img/Group 12.png" alt="">
     </div>
     <div class="d-flex justify-content-start position-absolute w-100">
-      <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media">
+      <img src="/Assets/Img/mpkecil.png" alt="Logo Merahputih Media"class="mp-kecil">
     </div>
 
     <div class="d-flex justify-content-end position-absolute w-100 kotak-kanan">
@@ -340,8 +322,8 @@
       
           <main class="container">
                   <div class="row">
-                      <div class="col-md-6 py-5 map">
-                          <img src="/Assets/Img/image 103.png " alt=""  >
+                      <div class="col-md-6 py-5">
+                          <img src="/Assets/Img/image 103.png " alt="" class="map" >
                       </div>
                       <div class="col-md-6 py-5 testuy" >      
                         <input class="form-control py-4 mb-3" 
@@ -355,7 +337,7 @@
                         <input class="form-control py-4 mb-3" 
                         type="text" 
                         placeholder="Subjek Email">
-                        <textarea name="Ketik-pertanyaan Ketik-pertanyaan-lg" rows="6" placeholder="Ketik Pertanyaan">
+                        <textarea name="Ketik-pertanyaan Ketik-pertanyaan-lg" rows="6" placeholder="Ketik Pertanyaan" class="pertanyaan">
                         </textarea>
                         <input class="form-control py-4 mb-lg-2 mt-3" 
                         type="text" 
@@ -365,7 +347,7 @@
                         </div>
                       </div>
                   </div>
-                  <a href="#" class="fb"><img src="/Assets/Img/ICON FACEBOOK.png" alt=""></a>
+                  <a href="#" ><img src="/Assets/Img/ICON FACEBOOK.png" alt="" class="fb"></a>
                   <a href="#" style="margin-left: 300px;"><img src="/Assets/Img/twitter_black_logo_icon_147062 1.png" class="twt" alt=""></a>
                   <a href="#" style="margin-left: 270px;" ><img src="/Assets/Img/ICON INSTAGRAM.png" class="ig" alt=""></a>
                   <a href="#" style="margin-left: 270px;"><img src="/Assets/Img/YOUTUBE PNG 1.png" class="ytb" alt=""></a>
@@ -380,7 +362,7 @@
       <div class="container text-left">
         <div class="row">
             <div class="col-md-6 Pembatas">
-              <img src="/Assets/Img/FOOTER LOGO.png" alt="" style="margin-left: -20px; margin-top: -10px;">
+              <img src="/Assets/Img/Logo Footer.png" alt=""  class="footer-logo">
               <h4 class="Footer-title">Merah Putih Media</h4>
               <p>Cluster Paramount Hill Golf Jalan Gading Golf Timur Blok GGT No 112, Gading Serpong 15810, Tangerang, Indonesia</p>
               <br>
@@ -414,7 +396,7 @@
       <div class="container garis">
         <div class="row">
          <div class="col text-left">
-          <p>© ALL RIGHTS RESERVED 2022 MP Media</p>
+          <p class="copyright">© ALL RIGHTS RESERVED 2022 MP Media</p>
          </div>
          <div class="col">
          </div>
@@ -433,9 +415,13 @@
       
   
   <!-- MY SCRIPT -->
-  <script src="/JS/Nav.Js"></script>
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="/JS/Nav.Js"></script>
+
+
+
+ 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
