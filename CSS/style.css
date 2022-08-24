@@ -7,134 +7,160 @@ body {
   
 }
 
-.navbar {
-  border-bottom: 7px solid red;
 
-  padding: 20px;
-}
+/* NAVBAR */
 
-
-
-
-.nav-link {
-  font-size: 20px;
-}
-
-.nav-link.active {
-  font-weight: 700;
-}
-
-.button-primary {
-  width: 177px;
-  height: 53px;
-  left: 1096px;
-  top: 24px;
+    .navbar {
+    border-bottom: 7px solid red;
   
-  background: #FFFFFF;
-  border: 1px solid #EE3A3A;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;    
-}
+    padding: 20px;
+  }
 
-li {
-border-radius: 5px;
-}
 
-li:hover,
-li.active {
-background-color: #ccc;
-}
 
-/* navbar */
-.CONTACT {
-color: black;
-  font-size: 20px;
-}
+
+    .nav-link {
+    font-size: 20px;
+  } 
+
+    .nav-link.active {
+    font-weight: 700;
+  } 
+
+    .button-primary {
+    width: 177px;
+    height: 53px;
+    left: 1096px;
+    top: 24px;
+  
+    background: #FFFFFF;
+    border: 1px solid #EE3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;    
+  }
+
+    .button-primary:hover {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+  }
+
+    li {
+    border-radius: 5px;
+  }
+
+
+@media screen and (min-width: 1025px) {
+  
+    li:hover,
+    li.active {
+    background-color: #ccc;
+    }
+
+
+  }
+
+
 
 /* Navbar Color */
 
-.nav-color {
-background-color: #FFFFFF;
-}
+    .nav-color {
+    background-color: #FFFFFF;
+  }
 
 /* About Section */
 
 
 
-h2 {
-  font-size: 64px;
-  font-weight: 500;
-  margin-top: 100px;
-  border-bottom: 3px solid red;
+    h2 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 100px;
+    border-bottom: 3px solid red;
  
 
-}
+  }
 
-.button-secondary {
-  margin-top: 20px;
-  margin-left: 10px;
-  width: 205px;
-  height: 53px;
+    .button-secondary {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 205px;
+    height: 53px;
+    font-size: 18px;
 
-  background: #FFFFFF;
-  border: 1px solid #EE3A3A;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-}   
+    background: #FFFFFF;
+    border: 1px solid #EE3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }   
 
-.about-logo {
-width: 75%;
-height: auto;
-margin-left: -250px;
-margin-top: 150px;
-}
+    .button-secondary:hover {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+  } 
+
+    .about-logo {
+    width: 75%;
+    height: auto;
+    margin-left: -250px;
+    margin-top: 150px;
+  }
 
 
 /* OUR BUSINESS SECTION */
 
-#bisnis {
-  padding: 0px;
-}
+    #bisnis {
+    padding: 0px;
+  }
 
-h1 {
-  font-size: 48px;
-  font-weight: 500;
-  padding-top: 200px;
-  margin-left: 150px;
-}
+    h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 200px;
+   margin-left: 150px;
+  }
 
 
 /* OUR MEDIA SECTION */
 
-h3 {
-  font-size: 64px;
-  font-weight: 500;
-  color: #EE3A3A;
-  margin-top: 0px;
+    h3 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #EE3A3A;
+    margin-top: 0px;
   
-  border-bottom: 3px solid red;
+    border-bottom: 3px solid red;
 
-}
+  }
 
-.sub-title {
-  font-size: 28px;
+    .sub-title {
+    font-size: 28px;
 
-} 
+  } 
 
-.button-slider {
-  margin-top: 10px;
-  margin-left: 160px;
-  margin-bottom: 50px;
-  width: 75%;
-  height: auto;
+    .button-slider {
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    width: 75%;
+    height: auto;
 
-  background-color: white;
-  color: red;
-  border: 1px solid #EE3A3A;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;       
-}
+    background-color: white;
+    color: red;
+    border: 1px solid #EE3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;       
+  }
 
+    .button-slider:hover {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+  }
 
 
 /* CONTACT US SECTION */
@@ -142,38 +168,45 @@ h3 {
 
 
 
-h6 {
-  font-size: 64px;
-  font-weight: 500;
-  margin-top:10px;
-  margin-bottom: 50px;
+    h6 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top:10px;
+    margin-bottom: 50px;
+    color: white;
+
+  }
+
+  .button-submit {
+  width: 152px;
+  height: 45px;
+  left: 747px;
+  top: 787px;
+  margin-top: 50px;
+  background: #D9D9D9;
+  border-radius: 20px;
+  }
+
+  .button-submit:hover {
   color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
 
-}
+  }
 
-.button-submit {
-width: 152px;
-height: 45px;
-left: 747px;
-top: 787px;
-margin-top: 50px;
-background: #D9D9D9;
-border-radius: 20px;
-}
-
-#Contact-us {
+    .form {
   border-left: 3px;
   border-color: green;
-}
+  }
 
-.test{
-margin-right: 30px;
-} 
+    .test{
+  margin-right: 30px;
+  } 
 
-.test img {
-width: 100%;
-display: block;
-}
+    .test img {
+  width: 100%;
+  display: block;
+  }
 
 
 
@@ -240,9 +273,7 @@ display: block;
   margin-left: 50px;
 }
 
-.Footer-title {
-  margin-top: px;
-}
+
 
 .About-MP {
   color: black;
@@ -358,3 +389,302 @@ background-color:#ccc;
 
 
 
+
+
+
+
+                      /* OUR MEDIA DETAIL */
+
+
+/* OurMediaDetail */
+
+.ourmedia {
+  background-image: url(/Assets/Img/Background-OM.jpeg);
+  background-size: cover;
+  height: auto;
+}
+ .merah {
+  border-bottom: 5px solid red;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  width: 500px;
+  height: auto;
+ }
+
+ .MPMEDIA {
+  width: 800px;
+  height: auto;
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+ }
+
+ .KABAROTOMEDIA {
+  width: 800px;
+  height: auto;
+  float: right;
+  margin-top: -80px;
+  margin-right: 100px ;
+ }
+
+ .BOLASKORMEDIA {
+  width: 800px;
+  height: auto;
+  float: left;
+  margin-top: -100px;
+  margin-left: 100px;
+ }
+
+ .SIDEMEDIA {
+  width: 800px;
+  height: auto;
+  float: right;
+  margin-top: -100px;
+  margin-right: 100px;
+ }
+
+ .KAMIBIJAKMEDIA {
+  width: 800px;
+  height: auto;
+  float: left;
+  margin-top: -120px;
+  margin-left: 100px;
+ }
+
+
+                              /* OUR BUSINESS DETAIL CSS */
+
+                      
+
+.mining-title {
+  margin-top: -50px;
+  margin-bottom: 100px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+/* JHLMINING.HTML */
+.JHLMINING1 {
+  width: 261px;
+  height: auto ;
+ }
+
+ .bo {
+  background-image: url(/Assets/Img/JHLMININGBACK.png);
+  background-size: cover;
+}
+
+/* HEAVYEQUIP.HTML */
+.HEAVYEQUIP1 {
+  width: 261px;
+  height: auto;
+  margin-bottom: 20px;
+ }
+
+ .HEAVYEQUIP {  
+  background-image: url(/Assets/Img/HEAVYEQUIPBackground.png);
+  background-size: cover;
+}
+
+.JHLMINING {
+  background-image: url(/Assets/Img/HEAVYEQUIPBackground.png);
+  background-size: cover;
+}
+
+.PTJAGAT {
+  margin-top: 40px;
+}
+.PTJAGAT2 {
+  margin-top: 40px;
+}
+
+.JHLMINING2 {
+  margin-bottom: 50px;
+}
+
+.HEAVYEQUIP2 {
+  margin-bottom: 50px;
+}
+
+/* zoom hover */
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: 5s;
+  
+}
+
+.dimension {
+  width: 500px;
+  height: 300px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #E71919;
+  color: #fff;
+  border: 3px solid #E71919;
+}
+
+.nav-tabs .nav-link {
+  background-color: #fff;
+  color: black;
+  border: 3px solid #E71919;  
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.nav-tabs .nav-link:hover {
+  border: 3px solid #8F2424;
+}
+
+
+
+.bard {
+  border: 3px solid #8F2424;
+}
+
+
+
+
+                                                                                  /* OUR MEDIA DETAIL  */
+
+
+
+
+/* MERAHPUTIH.HTML */
+.LOGO-MP {
+  padding-top: 50px;
+  width: 600px;
+  height: auto;  
+}
+
+.LOGOMP {
+ border-bottom: #EE3A3A;
+}
+
+.KETERANGAN-MP {
+  background-image: url(/Assets/Img/KET-MP\ BACKGROUND.png);
+  background-size: cover;
+}
+
+.tulisan-MP {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* KABAROTO.HTML */
+.LOGO-KABAROTO {
+  padding-top: 80px;
+  width: 100px;
+  height: auto;
+}
+
+.LOGOKABAROTO {
+  padding-top: 50px;
+  border-bottom: #EE3A3A;
+ }
+ 
+ .KETERANGAN-KABAROTO {
+   background-image: url(/Assets/Img/KABAROTO-BACKGROUND.png);
+   background-size: cover;
+ }
+ 
+ .tulisan-kabaroto {
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+
+/* BOLASKOR.HTML */
+.LOGO-BOLASKOR {
+  padding-top: 80px;
+  width: 600px;
+  height: auto;
+}
+
+.LOGOBOLASKOR {
+  padding-top: 50px;
+  border-bottom: #EE3A3A;
+ }
+ 
+ .KETERANGAN-BOLASKOR {
+   background-image: url(/Assets/Img/BOLASKORBACKGROUND.png);
+   background-size: cover;
+ }
+ 
+ .tulisan-BOLASKOR {
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+
+ /* SIDE.HTML */
+ .LOGO-KABAROTO {
+  padding-top: 80px;
+  width: 600px;
+  height: auto;
+}
+
+.LOGOKABAROTO {
+  padding-top: 50px;
+  border-bottom: #EE3A3A;
+ }
+ 
+ .KETERANGAN-KABAROTO {
+   background-image: url(/Assets/Img/KABAROTO-BACKGROUND.png);
+   background-size: cover;
+ }
+ 
+ .tulisan-kabaroto {
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+
+/* BOLASKOR.HTML */
+.LOGO-SIDE {
+  padding-top: 80px;
+  width: 600px;
+  height: auto;
+}
+
+.LOGOSIDE {
+  padding-top: 50px;
+  border-bottom: #EE3A3A;
+ }
+ 
+ .KETERANGAN-SIDE {
+   background-image: url(/Assets/Img/SIDEBACKGROUND.png);
+   background-size: cover;
+ }
+ 
+ .tulisan-SIDE {
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+
+ /* KAMIBIJAK.HTML */
+ .LOGO-KAMIBIJAK {
+  padding-top: 80px;
+  width: 600px;
+  height: auto;
+}
+
+.LOGOKAMIBIJAK {
+  padding-top: 50px;
+  border-bottom: #EE3A3A;
+ }
+ 
+ .KETERANGAN-KAMIBIJAK {
+   background-image: url(/Assets/Img/SIDEBACKGROUND.png);
+   background-size: cover;
+ }
+ 
+ .tulisan-KAMIBIJAK {
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }

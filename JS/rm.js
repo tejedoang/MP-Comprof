@@ -1,6 +1,14 @@
 $(document).ready(function(){
 
 
+  var s=$(window).width();
+
+    if(s<1026) {
+      $("#menu").removeClass('scrolled');
+      exit();
+      return false;
+      
+    }
  
     var navbarh = 200;
     $(window).scroll(function(){

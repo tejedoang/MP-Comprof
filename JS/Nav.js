@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 
  
+     
   var navbarh = 200;
   var aboutus= 970;
   var ourbisnis= 1971;
@@ -9,8 +10,21 @@ $(document).ready(function(){
   var ourmedia = 3500;
   var contactus = 4726;
   $(window).scroll(function(){
+
+    var s=$(window).width();
+
+    if(s<1026) {
+      $("#menu").removeClass('scrolled');
+      exit();
+      return false;
+      
+    }
+
+
+
     var scroll = $(window).scrollTop();
-    console.log (scroll);
+     
+    
       if($(window).scrollTop() > navbarh){
  
           $("#menu").addClass('bg-scrolled');
@@ -60,3 +74,4 @@ $(document).ready(function(){
   });
  
 });
+
